@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProyectoParcial1
+namespace ProyectoParcial1.UI.Consultas
 {
-    public partial class Form1 : Form
+    public partial class cValorInventario : Form
     {
-        public Form1()
+        public cValorInventario()
         {
             InitializeComponent();
         }

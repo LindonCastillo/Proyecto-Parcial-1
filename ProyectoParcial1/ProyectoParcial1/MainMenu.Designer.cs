@@ -1,6 +1,6 @@
 ﻿namespace ProyectoParcial1
 {
-    partial class Form1
+    partial class MainMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -68,22 +68,24 @@
             this.productosToolStripMenuItem.Name = "productosToolStripMenuItem";
             this.productosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.productosToolStripMenuItem.Text = "&Productos";
+            this.productosToolStripMenuItem.Click += new System.EventHandler(this.ProductosToolStripMenuItem_Click);
             // 
             // verValorTotalDeInventarioToolStripMenuItem
             // 
             this.verValorTotalDeInventarioToolStripMenuItem.Name = "verValorTotalDeInventarioToolStripMenuItem";
             this.verValorTotalDeInventarioToolStripMenuItem.Size = new System.Drawing.Size(201, 22);
             this.verValorTotalDeInventarioToolStripMenuItem.Text = "Valor Total de Inventario";
+            this.verValorTotalDeInventarioToolStripMenuItem.Click += new System.EventHandler(this.VerValorTotalDeInventarioToolStripMenuItem_Click);
             // 
-            // Form1
+            // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(501, 337);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "MainMenu";
+            this.Text = "Menu Principal";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
