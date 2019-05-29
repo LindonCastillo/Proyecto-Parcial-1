@@ -79,6 +79,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="UI\Registros\rProductos.resx">
       <DependentUpon>rProductos.cs</DependentUpon>
@@ -100,6 +101,18 @@
   <ItemGroup>
     <Folder Include="BLL\" />
     <Folder Include="DAL\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application_add-512 icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_black-512 icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
